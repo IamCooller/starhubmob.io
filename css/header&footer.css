@@ -192,4 +192,7 @@ textarea:focus {
 .navbar-light .navbar-toggler{
   border: none !important;
 }
+  .addition-credits{
+   font-size:14px; 
+  }
 }
