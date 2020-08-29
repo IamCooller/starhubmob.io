@@ -245,3 +245,17 @@ textarea:focus {
          color:#fff;
        }
 }
+
+@media (max-width: 440px){
+
+ .mobile-menu-additional p {
+  right: 40%;
+  font-size: 2rem;
+ }
+ .close {
+  top: -56px;
+  right: 34%;
+ }
+
+
+ }
