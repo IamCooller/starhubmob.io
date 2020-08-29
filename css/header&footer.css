@@ -138,10 +138,7 @@ textarea:focus {
     bottom: 91px;
     flex-direction: column;
   }
-  .header .header-list{
-    padding: 0;
-    flex-direction: column;
-  }
+
   .business h1 {
     font-size: 30px !important;
     text-align: center;
@@ -195,4 +192,56 @@ textarea:focus {
   .addition-credits{
    font-size:14px; 
   }
+  .menu{
+   display:none !important;
+  }
+  .mobile-menu{
+   
+    background-size: cover;
+    margin: 0 auto;
+     width: 30em;
+    position: relative;
+    z-index: 2;
+     height: 296px;
+  }
+  
+  .mobile-menu img{
+    width: 5%;
+  }
+  .mobile-back img {
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+      top: -65px;
+  }
+  .mobile-menu-text{
+     font-size:24px;
+     padding-left: 16%;
+     padding-top: 10%;
+  }
+  .mobile-menu-text p {
+    padding-bottom: 15px;
+  }
+  .active-menu p{
+    text-decoration: underline !important;
+  }
+   .active-menu img{
+     position: absolute;
+     left: 40px;
+     top: 56px;
+   }
+   .mobile-menu-additional p{
+       position: absolute;
+       top: -67px;
+       right:10%;
+       font-size: 3rem;
+        font-family: 'Myriad Pro';
+        color: #361470;
+       }
+       .close{
+         position: absolute;
+         top: -45px;
+         right: 30px;
+         color:#fff;
+       }
 }
